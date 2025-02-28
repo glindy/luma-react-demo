@@ -1,0 +1,15 @@
+#/about
+#/cart
+#/wishlist
+#/confirm
+#/products
+#/mensproducts
+#/womensproducts
+#/gearproducts
+#/yogaproducts
+#/blog
+#/lumaplus
+#/checkout
+#/product/1
+#/product/11
+#/signupconfirm
