@@ -37,7 +37,7 @@ const dispatchCustomEvent = (eventName, target) => {
 const AppWithEvents = withRouter((props) => {
   React.useEffect(() => {
     // Dispatch event on first page load top
-    if (window.location.pathname.split('/')[1] == 'luma') {
+    if (window.location.pathname === '/') {
       setTimeout(() => {
 
       dispatchCustomEvent("page-load-top", document.body);}, 300)
