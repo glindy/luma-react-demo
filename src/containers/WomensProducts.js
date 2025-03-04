@@ -95,7 +95,7 @@ class WomensProducts extends Component {
     style={{
       backgroundImage:
         'url("https://www.teehuggers.com/web/img/imgs/dsn-womens-banner.jpg")',
-      backgroundSize: "contain",
+      backgroundSize: "cover",
       height: 319
     }}
   >
