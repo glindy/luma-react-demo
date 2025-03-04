@@ -94,8 +94,8 @@ class WomensProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/argon/upload/dev/luma3/women-cmp-tT46GT6j%240q")',
-      backgroundSize: "cover",
+        'url("https://www.teehuggers.com/web/img/imgs/dsn-womens-banner.jpg")',
+      backgroundSize: "contain",
       height: 319
     }}
   >
