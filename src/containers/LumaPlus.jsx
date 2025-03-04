@@ -27,7 +27,7 @@ render() {
           <div className="container">
             <div className="p-5 text-center bg-image rounded-3" style={{
               backgroundImage:
-                'url("https://teehuggers.com/web/img/imgs/AdobeStock_363563655.jpeg")',
+                'url("https://teehuggers.com/web/img/imgs/AdobeStock_363563655.jpg")',
               backgroundPosition: "center",
               backgroundSize: "100%",
               backgroundRepeat: "no-repeat",
@@ -50,7 +50,7 @@ render() {
   <div className="row">
     <div className="col-md-6 order-2 order-md-1">
       <img
-        src="https://t3.ftcdn.net/jpg/02/19/91/90/240_F_219919005_kCYKyF1DU89b7WPEfzxXW6eKfw9AlpNL.jpg"
+        src="https://www.teehuggers.com/web/img/imgs/lumaplus-tile.jpg"
         className="img-fluid rounded-start"
         alt="cid-2"
       />
@@ -88,7 +88,7 @@ render() {
     </div>
     <div className="col-md-6 order-1 order-md-2">
       <img
-        src="https://t3.ftcdn.net/jpg/03/86/46/32/240_F_386463291_vzuYZTf83aE6W490NUuKDMeT91hgFuI1.jpg"
+        src="https://www.teehuggers.com/web/img/imgs/lumaplus-tile2.jpg"
         className="img-fluid rounded-start"
         alt="cid-2"
       />
@@ -101,7 +101,7 @@ render() {
     </h1>
     <div className="col-md-4 order-1 order-md-2">
       <img
-        src="https://demo-system-next.s3.amazonaws.com/assets/luma/luma%2Bbanner-small.png"
+        src="https://teehuggers.com/web/img/imgs/lumaplus_tile3.jpg"
         className="img-fluid rounded-start"
         alt="cid-2"
       />
