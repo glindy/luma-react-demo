@@ -19,13 +19,13 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/assets/luma/AdobeStock_250565045.jpeg"
+                    src="https://teehuggers.com/web/img/imgs/AdobeStock_250565045.jpg"
                     alt="Women's Catalog" 
                     style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
-                      <h5 className="dark">VIEW OUR WOMEN'S CATALOG</h5>
+                      <h5 className="dark" style={{ textShadow: "1px 1px #FFFFFF" }}>VIEW OUR WOMEN'S CATALOG</h5>
                     </div>
 
                     <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
@@ -46,13 +46,13 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/assets/luma/AdobeStock_139100491.jpeg"
+                    src="https://teehuggers.com/web/img/imgs/AdobeStock_139100491.jpg"
                     alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
-                      <h5 className="white">VIEW OUR MEN'S CATALOG</h5>
+                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>VIEW OUR MEN'S CATALOG</h5>
                     </div>
                     <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
                       <a href="#/mensproducts">
@@ -72,7 +72,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/assets/luma/AdobeStock_272526049.jpeg" alt="Gear Catalog" style={{ width: "100%" }}
+                    src="https://teehuggers.com/web/img/imgs/AdobeStock_272526049.jpg" alt="Gear Catalog" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
