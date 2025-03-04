@@ -125,7 +125,7 @@ render() {
           paddingRight: 15,
           backgroundSize: "cover",
           backgroundImage:
-            'url("https://demo-system-next.s3.amazonaws.com/assets/luma/AdobeStock_352857962.jpeg")',
+            'url("https://teehuggers.com/web/img/imgs/AdobeStock_352857962.jpg")',
           backgroundPosition: "center bottom",
           /* marginLeft: 15, */ /* marginRight: 100, */ height: "90%"
         }}
