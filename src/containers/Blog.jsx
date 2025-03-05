@@ -39,9 +39,9 @@ class Blog extends Component {
               <div className="d-flex flex-row-bd h-100" style={{}}>
                 <div className="hero-banner-text">
                   <div className="titles grouped">
-                    <h4 className="subtitle-right-white">GET THE MOTIVATION YOU NEED</h4>
-                    <h1 className="title-right-white">INSPIRING STORIES FROM</h1>
-                    <h1 className="title-right-white">WORLD-CLASS ATHLETES</h1>
+                    <h4 className="subtitle-right-white" style={{ textShadow: "1px 1px #000000" }}>GET THE MOTIVATION YOU NEED</h4>
+                    <h1 className="title-right-white" style={{ textShadow: "1px 1px #000000" }}>INSPIRING STORIES FROM</h1>
+                    <h1 className="title-right-white" style={{ textShadow: "1px 1px #000000" }}>WORLD-CLASS ATHLETES</h1>
                   </div>
                 </div>
               </div>
