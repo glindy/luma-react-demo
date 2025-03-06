@@ -72,7 +72,7 @@ class Cart extends Component {
 
 let checkoutButton = total > 0 ? (
   <Link 
-    to="checkout" 
+    to="/checkout" 
     className="button btn-margin is-success" 
     onClick={(e) => {
       handleCheckoutClick();
