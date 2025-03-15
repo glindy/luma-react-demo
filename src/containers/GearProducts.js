@@ -103,8 +103,8 @@ class GearProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h1 className="title-right-white">RIDE FREELY, LIVE BOLDLY</h1>
-          <h1 className="title-right-white">WITH LUMA GEAR</h1>
+          <h1 className="title-right-white" style={{ textShadow: "1px 1px #000000" }}>RIDE FREELY, LIVE BOLDLY</h1>
+          <h1 className="title-right-white" style={{ textShadow: "1px 1px #000000" }}>WITH LUMA GEAR</h1>
         </div>
       </div>
     </div>
