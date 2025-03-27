@@ -1,4 +1,4 @@
-/** added these import statements **/
+
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Helmet from "react-helmet"
@@ -9,27 +9,10 @@ import { addToWishlist } from '../actions/addToWishlist'
 import { removeFromWishlist } from '../actions/removeFromWishlist'
 import { removeFromCart } from '../actions/removeFromCart'
 import SingleProduct from '../containers/SingleProduct'
-/** end added import statements **/
 
 
-/** these don't work...
- * 
-const fireViewEndCustomEvent = () => {
-  console.log("Firing Custom Event 'event-view-end'");
-  var event = new CustomEvent('event-view-end');
-  var obj = document.querySelector("#app");
-  obj.dispatchEvent(event);
-};
 
-const fireViewStartCustomEvent = (data) => {
-  console.log("Firing Custom Event 'event-view-start'");
-  let event = new CustomEvent('event-view-start', data);
-  document.body.dispatchEvent(event);
-};
-...end commented out code for testing (don't work, this is handled in index.js) **/
-
-
-/** Added this on Feb 18 and works to extract data-* attributes from '../containers/SingleProduct.jsx **/
+/** Extract data-* attributes from '../containers/SingleProduct.jsx **/
 
 const dispatchCustomEvent = (product) => { 
   if (!product) {
@@ -96,55 +79,6 @@ document.addEventListener("click", (event) => {
 
 
 
-
-
-
-
-/**  added this, didn't work...
- * 
-const dispatchCustomEvent = () => {             
-  const event = new CustomEvent('cart-add');
-  document.body.dispatchEvent(event);
-
-
-const productCategory = this.props.product.category;
-const productSku = this.props.product.sku;
-const productName = this.props.product.title;
-const productPrice = this.props.product.price;
-
-window.digitalData = {
-    event: "cart-add",
-    page: {
-      pageTitle: document.title,
-      url: window.location.href,
-      productCategory,
-      productSku,
-      productName,
-      productPrice,
-    },
-
-  };
-  
-
-
-  console.log(`[customEvents.js] Custom event 'cart-add' dispatched`);
-};
-
-...**/
-
-
-
-
-
-
-
-/** removing this during test...
-const fireActionTriggerCustomEvent = (target, data) => {
-  console.log("Firing Custom Triggered Event");
-  var event = new CustomEvent('event-action-trigger', data);
-  var obj = target.dispatchEvent(event);
-};
-**/
 
 export {
   //fireViewEndCustomEvent,
