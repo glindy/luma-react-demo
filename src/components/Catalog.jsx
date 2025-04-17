@@ -19,7 +19,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://teehuggers.com/img/dd_aca_travel.png"
+                    src="https://teehuggers.com/img/dd_aca_me.png"
                     alt="Women's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -46,7 +46,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://teehuggers.com/img/dd_aca_th.png"
+                    src="https://teehuggers.com/img/dd_aca_consulting.png"
                     alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -72,7 +72,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://teehuggers.com/img/dd_aca_retail.png" alt="Gear Catalog" style={{ width: "100%" }}
+                    src="https://teehuggers.com/img/dd_aca_dr.png" alt="Gear Catalog" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
