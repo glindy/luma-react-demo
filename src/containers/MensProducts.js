@@ -115,15 +115,7 @@ class MensProducts extends Component {
 
 
 
-    <div className="container">
-      <div className="heading">
-          <h1 className="title">SHOP BY CATEGORY</h1>
-      <div>
-        <CatalogMens />
-        </div>
-      </div>
-    </div>
-<br /><br />
+    
 
 
           <div className="container">
