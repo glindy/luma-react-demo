@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import ProductItem from '../components/ProductItem'
-import CatalogMens from '../components/CatalogMens' //added this on 4/25 per krward
+// import CatalogMens from '../components/CatalogMens' //added this on 4/25 per krward
 import { fetchProducts } from '../actions/fetchMensProducts'
 import { addToCart } from '../actions/addToCart'
 import { addToWishlist } from '../actions/addToWishlist'
