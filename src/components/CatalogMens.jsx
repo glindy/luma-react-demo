@@ -15,46 +15,47 @@ class CatalogMens extends Component {
         <div className="columns is-multiline">
           
           {/* Men's Catalog Slot 1 */}
-          <div className="column is-one-third">
+         <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-               <a href="#/mensproducts">
-                <figure className="image is-16by9">
-                  <img
-                    src="https://teehuggers.com/web/img/imgs/athlete-resting-wall.jpg"
-                    alt="Men's Bottoms" 
-                    style={{ width: "100%" }}
-                  />
-                  <div className="img-text-container">
-                    <div className="text-center bg-text inner bottom-left">
-                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP BOTTOMS</h5>
+                <a href="#/mensproducts">
+                  <figure className="image is-16by9">
+                    <img
+                      src="https://teehuggers.com/web/img/imgs/athlete-resting-wall.jpg"
+                      alt="Men's Bottoms"
+                      style={{ width: "100%" }}
+                    />
+                    <div className="img-text-container">
+                      <div className="text-center bg-text inner bottom-center">
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP BOTTOMS</h5>
+                      </div>
+                      <div style={{ height: "3em"}}></div>
                     </div>
-                  </div>
-                </figure>
-               </a>
+                  </figure>
+                </a>
               </div>
             </div>
           </div>
 
           {/* Men's Catalog Slot 2 */}
-          <div className="column is-one-third">
+         <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-               <a href="#/mensproducts">
-                <figure className="image is-16by9">
-                  <img
-                    src="https://teehuggers.com/web/img/imgs/joggers-tunnel.jpg"
-                    alt="Men's Tops" 
-                    style={{ width: "100%" }}
-                  />
-                  <div className="img-text-container">
-                    <div className="text-center bg-text inner bottom-center">
-                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP TOPS</h5>
+                <a href="#/mensproducts">
+                  <figure className="image is-16by9">
+                    <img
+                      src="https://teehuggers.com/web/img/imgs/joggers-tunnel.jpg"
+                      alt="Men's Tops"
+                      style={{ width: "100%" }}
+                    />
+                    <div className="img-text-container">
+                      <div className="text-center bg-text inner bottom-center">
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP TOPS</h5>
+                      </div>
+                      <div style={{ height: "3em"}}></div>
                     </div>
-                   
-                  </div>
-                </figure>
-               </a>
+                  </figure>
+                </a>
               </div>
             </div>
           </div>
@@ -63,18 +64,21 @@ class CatalogMens extends Component {
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-               <a href="#/mensproducts">
-                <figure className="image is-16by9">
-                  <img
-                    src="https://teehuggers.com/web/img/imgs/hiking-shoes-close.jpg" alt="Men's Shoes" style={{ width: "100%" }}
-                  />
-                  <div className="img-text-container">
-                    <div className="text-center bg-text inner bottom-center">
-                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
+                <a href="#/mensproducts">
+                  <figure className="image is-16by9">
+                    <img
+                      src="https://teehuggers.com/web/img/imgs/hiking-shoes-close.jpg"
+                      alt="Men's Shoes"
+                      style={{ width: "100%" }}
+                    />
+                    <div className="img-text-container">
+                      <div className="text-center bg-text inner bottom-center">
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
+                      </div>
+                      <div style={{ height: "3em"}}></div>
                     </div>
-                  </div>
-                </figure>
-               </a>
+                  </figure>
+                </a>
               </div>
             </div>
           </div>

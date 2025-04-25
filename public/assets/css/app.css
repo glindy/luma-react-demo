@@ -188,17 +188,3 @@ li:not(:last-child).Footernav-disclaimer:after {
 }
 
 /*# sourceMappingURL=app.css.map */
-
-/* for catalog component slots clickable asset (no button) */
-
-.card-image a {
-  display: block;
-  height: 100%;
-  width: 100%;
-  text-decoration: none;
-  color: inherit;
-}
-
-.card-image figure {
-  height: 100%;
-}
