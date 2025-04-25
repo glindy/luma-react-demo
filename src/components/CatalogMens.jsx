@@ -26,8 +26,8 @@ class CatalogMens extends Component {
                     style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
-                    <div className="text-center bg-text inner">
-                      <h5 className="dark" style={{ textShadow: "1px 1px #FFFFFF" }}>SHOP BOTTOMS</h5>
+                    <div className="text-center bg-text inner bottom-left">
+                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP BOTTOMS</h5>
                     </div>
                   </div>
                 </figure>
@@ -48,7 +48,7 @@ class CatalogMens extends Component {
                     style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
-                    <div className="text-center bg-text inner">
+                    <div className="text-center bg-text inner bottom-center">
                       <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP TOPS</h5>
                     </div>
                    
@@ -69,7 +69,7 @@ class CatalogMens extends Component {
                     src="https://teehuggers.com/web/img/imgs/hiking-shoes-close.jpg" alt="Men's Shoes" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
-                    <div className="text-center bg-text inner">
+                    <div className="text-center bg-text inner bottom-center">
                       <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
                     </div>
                   </div>
