@@ -7,7 +7,7 @@ import withAnalytics from '../utils/withAnalytics'; // Import the HOC for analyt
  * Created on 4/25 per Krward
  */
 
-class Catalog extends Component {
+class CatalogMens extends Component {
   render() {
     return (
              
