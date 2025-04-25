@@ -14,24 +14,24 @@ class Catalog extends Component {
         /* Catalog Content */
         <div className="columns is-multiline">
           
-          {/* Catalog Slot 1 */}
+          {/* Women's Catalog */}
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://teehuggers.com/web/img/imgs/athlete-resting-wall.jpg"
-                    alt="Mens Shorts & Pants" 
+                    src="https://teehuggers.com/web/img/imgs/AdobeStock_250565045.jpg"
+                    alt="Women's Catalog" 
                     style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
-                      <h5 className="dark" style={{ textShadow: "1px 1px #FFFFFF" }}>SHOP SHORTS & PANTS</h5>
+                      <h5 className="dark" style={{ textShadow: "1px 1px #FFFFFF" }}>VIEW OUR WOMEN'S CATALOG</h5>
                     </div>
 
                     <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
-                      <a href="#/mensproducts">
-                        <button className="button is-pulled-left is-success">SHORTS & PANTS
+                      <a href="#/womensproducts">
+                        <button className="button is-pulled-left is-success">WOMEN
                         </button>
                       </a>
                     </div>
@@ -41,23 +41,23 @@ class Catalog extends Component {
             </div>
           </div>
 
-          {/* Catalog Slot 2 */}
+          {/* Men's Catalog */}
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://teehuggers.com/web/img/imgs/joggers-tunnel.jpg"
-                    alt="Men's Tops" 
+                    src="https://teehuggers.com/web/img/imgs/AdobeStock_139100491.jpg"
+                    alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
-                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP TOPS</h5>
+                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>VIEW OUR MEN'S CATALOG</h5>
                     </div>
                     <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
                       <a href="#/mensproducts">
-                        <button className="button is-pulled-left is-success">TOPS
+                        <button className="button is-pulled-left is-success">MEN
                         </button>
                       </a>
                     </div>
@@ -73,15 +73,15 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://teehuggers.com/web/img/imgs/hiking-shoes-close.jpg" alt="Mens Shoes" style={{ width: "100%" }}
+                    src="https://teehuggers.com/web/img/imgs/AdobeStock_272526049.jpg" alt="Gear Catalog" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
-                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
+                      <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>VIEW OUR GEAR CATALOG</h5>
                     </div>
                     <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
-                      <a href="#/mensproducts">
-                        <button className="button is-pulled-left is-success">SHOES
+                      <a href="#/gearproducts">
+                        <button className="button is-pulled-left is-success">GEAR
                         </button>
                       </a>
                     </div>
@@ -95,4 +95,4 @@ class Catalog extends Component {
   }
 }
 
-export default CatalogMens; //updated this
+export default CatalogMens; //updated
