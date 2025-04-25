@@ -14,10 +14,11 @@ class CatalogMens extends Component {
         /* Catalog Content */
         <div className="columns is-multiline">
           
-          {/* Women's Catalog */}
+          {/* Men's Catalog Slot 1 */}
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
+               <a href="#/mensproducts">
                 <figure className="image is-16by9">
                   <img
                     src="https://teehuggers.com/web/img/imgs/athlete-resting-wall.jpg"
@@ -28,23 +29,18 @@ class CatalogMens extends Component {
                     <div className="text-center bg-text inner">
                       <h5 className="dark" style={{ textShadow: "1px 1px #FFFFFF" }}>SHOP BOTTOMS</h5>
                     </div>
-
-                    <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
-                      <a href="#/mensproducts">
-                        <button className="button is-pulled-left is-success">SHOP NOW
-                        </button>
-                      </a>
-                    </div>
                   </div>
                 </figure>
+               </a>
               </div>
             </div>
           </div>
 
-          {/* Men's Catalog */}
+          {/* Men's Catalog Slot 2 */}
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
+               <a href="#/mensproducts">
                 <figure className="image is-16by9">
                   <img
                     src="https://teehuggers.com/web/img/imgs/joggers-tunnel.jpg"
@@ -55,22 +51,19 @@ class CatalogMens extends Component {
                     <div className="text-center bg-text inner">
                       <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP TOPS</h5>
                     </div>
-                    <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
-                      <a href="#/mensproducts">
-                        <button className="button is-pulled-left is-success">SHOP NOW
-                        </button>
-                      </a>
-                    </div>
+                   
                   </div>
                 </figure>
+               </a>
               </div>
             </div>
           </div>
 
-          {/* Gear Catalog */}
+          {/* Men's Catalog Slot 3 */}
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
+               <a href="#/mensproducts">
                 <figure className="image is-16by9">
                   <img
                     src="https://teehuggers.com/web/img/imgs/hiking-shoes-close.jpg" alt="Men's Shoes" style={{ width: "100%" }}
@@ -79,14 +72,9 @@ class CatalogMens extends Component {
                     <div className="text-center bg-text inner">
                       <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
                     </div>
-                    <div style={{ paddingLeft: 20, bottom: 20, position: "relative" }}>
-                      <a href="#/gearproducts">
-                        <button className="button is-pulled-left is-success">SHOP NOW
-                        </button>
-                      </a>
-                    </div>
                   </div>
                 </figure>
+               </a>
               </div>
             </div>
           </div>
