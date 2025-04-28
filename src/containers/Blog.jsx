@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import Helmet from "react-helmet"
 import { fetchBlog } from '../actions/fetchBlog'
 import BlogItems from '../components/BlogItems'
+import BlogItems2 from '../components/BlogItems2'
 
 
 /**
@@ -54,6 +55,10 @@ class Blog extends Component {
               <h1 className="title">LATEST BLOG STORIES</h1>
             <div>
             <BlogItems />
+            </div>
+            <br /> <br /><br />
+            <div>
+            <BlogItems2 />
             </div>
           </div>
           </div>
