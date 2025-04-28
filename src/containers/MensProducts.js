@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import ProductItem from '../components/ProductItem'
 import CatalogMens from '../components/CatalogMens' //added this on 4/25 per krward
+import BlogItems from '../components/BlogItems'
 import { fetchProducts } from '../actions/fetchMensProducts'
 import { addToCart } from '../actions/addToCart'
 import { addToWishlist } from '../actions/addToWishlist'
@@ -154,6 +155,20 @@ class MensProducts extends Component {
               </div>
             </div>
           </div>
+
+<br /><br />
+
+  <div className="container">
+            <div className="heading">
+              <h1 className="title">LATEST BLOG STORIES</h1>
+            <div>
+            <BlogItems />
+            </div>
+          </div>
+          </div>
+
+
+
         </section>
       </div>
     )

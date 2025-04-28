@@ -75,6 +75,12 @@ class BlogItems extends Component {
     </div>
  
 
+ 
+
+
+
+
+
 
     );
   }
