@@ -3,31 +3,31 @@ import { Link } from 'react-router-dom';
 import withAnalytics from '../utils/withAnalytics'; // Import the HOC for analytics tracking
 
 /**
- * Create Mens Category Catalog Component
- * Created on 4/25 per Krward
+ * Create Gear Category Catalog Component
+ * Created on 4/28 per Krward
  */
 
-class CatalogMens extends Component {
+class CatalogGear extends Component {
   render() {
     return (
              
         /* Catalog Content */
         <div className="columns is-multiline">
           
-          {/* Men's Catalog Slot 1 */}
+          {/* Gear Catalog Slot 1 */}
          <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-                <a href="#/mensproducts">
+                <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/m/b/athlete-stretching-gym.jpg"
-                      alt="Men's Bottoms"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/w/watch-in-river.jpg"
+                      alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
                     <div className="img-text-container">
                       <div className="text-center bg-text inner bottom-center">
-                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP BOTTOMS</h5>
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP WATCHES</h5>
                       </div>
                       <div style={{ height: "3em"}}></div>
                     </div>
@@ -37,20 +37,20 @@ class CatalogMens extends Component {
             </div>
           </div>
 
-          {/* Men's Catalog Slot 2 */}
+          {/* Gear Catalog Slot 2 */}
          <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-                <a href="#/mensproducts">
+                <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/resting-on-step.jpg"
-                      alt="Men's Tops"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/bottle-gym.jpg"
+                      alt="Gear Hydration"
                       style={{ width: "100%" }}
                     />
                     <div className="img-text-container">
                       <div className="text-center bg-text inner bottom-center">
-                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP TOPS</h5>
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP HYDRATION</h5>
                       </div>
                       <div style={{ height: "3em"}}></div>
                     </div>
@@ -60,20 +60,20 @@ class CatalogMens extends Component {
             </div>
           </div>
 
-          {/* Men's Catalog Slot 3 */}
+          {/* Gear Catalog Slot 3 */}
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-                <a href="#/mensproducts">
+                <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/m/s/shoe-shop-man.jpg"
-                      alt="Men's Shoes"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/s/glasses-by-river.jpg"
+                      alt="Gear Sunglasses"
                       style={{ width: "100%" }}
                     />
                     <div className="img-text-container">
                       <div className="text-center bg-text inner bottom-center">
-                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SUNGLASSES</h5>
                       </div>
                       <div style={{ height: "3em"}}></div>
                     </div>
@@ -87,4 +87,4 @@ class CatalogMens extends Component {
   }
 }
 
-export default CatalogMens; //updated
+export default CatalogGear; //updated
