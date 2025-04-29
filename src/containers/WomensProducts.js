@@ -96,7 +96,7 @@ class WomensProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://www.teehuggers.com/web/img/imgs/dsn-womens-banner.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/w/summit-at-sunset.jpg")',
       backgroundSize: "cover",
       height: 319
     }}

@@ -46,6 +46,19 @@ const AppWithEvents = withRouter((props) => {
       setTimeout(() => {
         dispatchCustomEvent("page-load-bottom", document.getElementById('app'));
       }, 1000); 
+
+// Generate JS cookie
+    function generateLumaId() {
+      return Math.floor(Math.random() * 10000000) + 90000000;
+    }
+
+    if (!document.cookie.includes('lumaCookie=')) {
+      const lumaId = generateLumaId();
+      const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString(); // 24 hours
+      document.cookie = `lumaCookie=${lumaId}; path=/; expires=${expires}`;
+    }
+
+
     }
 
     // Dispatch events on every route change

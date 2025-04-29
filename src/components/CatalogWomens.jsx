@@ -21,7 +21,7 @@ class CatalogWomens extends Component {
                 <a href="#/womensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/web/img/imgs/matching-tops.jpg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/w/t/matching-tops.jpg"
                       alt="Women's Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogWomens extends Component {
                 <a href="#/womensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/web/img/imgs/runner-leafy-bg.jpg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/w/b/runner-leafy-bg.jpg"
                       alt="Women's Bottoms"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogWomens extends Component {
                 <a href="#/womensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/web/img/imgs/tying-shoe-beach.jpg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/w/s/tying-shoe-beach.jpg"
                       alt="Women's Shoes"
                       style={{ width: "100%" }}
                     />
