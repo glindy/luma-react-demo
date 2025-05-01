@@ -46,7 +46,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/joggers-tunnel.jpg"
+                    src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/resting-on-step.jpg"
                     alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -72,7 +72,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/athlete-drinks-bottle.jpg" alt="Gear Catalog" style={{ width: "100%" }}
+                    src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/bottle-mtn-flowers.jpg" alt="Gear Catalog" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
