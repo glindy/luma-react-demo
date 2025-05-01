@@ -44,7 +44,7 @@ class CatalogMens extends Component {
                 <a href="#/mensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/joggers-tunnel.jpg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/resting-on-step.jpg"
                       alt="Men's Tops"
                       style={{ width: "100%" }}
                     />

@@ -46,7 +46,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/resting-on-step.jpg"
+                    src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/joggers-tunnel.jpg"
                     alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
