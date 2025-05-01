@@ -95,7 +95,7 @@ class GearProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://www.teehuggers.com/web/img/imgs/dsn-gear-banner.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/g/mtn-biker-rocky.jpg")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",

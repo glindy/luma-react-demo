@@ -19,7 +19,7 @@ class BlogItems extends Component {
           <div className="card-image">
             <figure className="image is-2by1">
               <a href="#/blog">
-                <img src="https://teehuggers.com/web/img/imgs/1540412484690.jpg" />
+                <img src="https://demo-system-next.s3.amazonaws.com/cja/r/b/yoga-circle-beach.jpg" />
               </a>
             </figure>
             <div className="img-text-container">
@@ -39,7 +39,7 @@ class BlogItems extends Component {
           <div className="card-image">
             <figure className="image is-2by1">
               <a href="#/blog">
-                <img src="https://teehuggers.com/web/img/imgs/AdobeStock_861601001.jpg" />
+                <img src="https://demo-system-next.s3.amazonaws.com/cja/r/b/strong-back-pose.jpg" />
               </a>
             </figure>
             <div className="img-text-container">
@@ -59,7 +59,7 @@ class BlogItems extends Component {
           <div className="card-image">
             <figure className="image is-2by1">
               <a href="#/blog">
-                <img src="https://teehuggers.com/web/img/imgs/1540415632896.jpg" />
+                <img src="https://demo-system-next.s3.amazonaws.com/cja/r/b/city-lake-run.jpg" />
               </a>
             </figure>
             <div className="img-text-container">

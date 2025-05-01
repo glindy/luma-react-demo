@@ -27,7 +27,7 @@ render() {
           <div className="container">
             <div className="p-5 text-center bg-image rounded-3" style={{
               backgroundImage:
-                'url("https://teehuggers.com/web/img/imgs/AdobeStock_363563655.jpg")',
+                'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/summit-silhouette.jpg")',
               backgroundPosition: "center",
               backgroundSize: "100%",
               backgroundRepeat: "no-repeat",
@@ -50,7 +50,7 @@ render() {
   <div className="row">
     <div className="col-md-6 order-2 order-md-1">
       <img
-        src="https://www.teehuggers.com/web/img/imgs/lumaplus-tile.jpg"
+        src="https://demo-system-next.s3.amazonaws.com/cja/r/l/couple-camp-forest.jpg"
         className="img-fluid rounded-start"
         alt="cid-2"
       />
@@ -88,7 +88,7 @@ render() {
     </div>
     <div className="col-md-6 order-1 order-md-2">
       <img
-        src="https://www.teehuggers.com/web/img/imgs/lumaplus-tile2.jpg"
+        src="https://demo-system-next.s3.amazonaws.com/cja/r/l/mtn-jump.jpg"
         className="img-fluid rounded-start"
         alt="cid-2"
       />
@@ -101,7 +101,7 @@ render() {
     </h1>
     <div className="col-md-4 order-1 order-md-2">
       <img
-        src="https://teehuggers.com/web/img/imgs/lumaplus_tile3.jpg"
+        src="https://demo-system-next.s3.amazonaws.com/cja/r/l/trail-run-logo.jpg"
         className="img-fluid rounded-start"
         alt="cid-2"
       />
@@ -125,7 +125,7 @@ render() {
           paddingRight: 15,
           backgroundSize: "cover",
           backgroundImage:
-            'url("https://teehuggers.com/web/img/imgs/AdobeStock_352857962.jpg")',
+            'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/workout-gear-bg.jpg")',
           backgroundPosition: "center bottom",
           /* marginLeft: 15, */ /* marginRight: 100, */ height: "90%"
         }}

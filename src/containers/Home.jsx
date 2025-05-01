@@ -72,10 +72,10 @@ class ProductList extends Component {
 
           <div className="container">
             <Slider {...settings}>
-              <div><img src="https://teehuggers.com/web/img/imgs/AdobeStock_570499457_cap.jpg" width={1100}height={509}/></div>
-              <div><img src="https://teehuggers.com/web/img/imgs/AdobeStock_175887750_cap.jpg" width={1100}height={509}/></div>
-              <div><img src="https://teehuggers.com/web/img/imgs/AdobeStock_658676166_cap2.jpg" width={1100}height={509}/></div>
-              <div><img src="https://teehuggers.com/web/img/imgs/AdobeStock_853600812_cap.jpg" width={1100}height={509}/></div>
+              <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/boardwalk-jogging.jpg" width={1100}height={509}/></div>
+              <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/mtn-trail-run.jpg" width={1100}height={509}/></div>
+              <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/post-workout-wall.jpg" width={1100}height={509}/></div>
+              <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/sunset-mtn-trek.jpg" width={1100}height={509}/></div>
             </Slider>
           </div>
           <br/><br/><br/>
