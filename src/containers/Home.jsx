@@ -79,7 +79,7 @@ class ProductList extends Component {
             </Slider>
           </div>
           <br/><br/><br/>
-          
+
 
           <div className="container">
           <div className="heading">
@@ -89,9 +89,63 @@ class ProductList extends Component {
             </div>
           </div>
           </div>
-        
-          
-          <br/><br/><br/>
+          <br/><br/>
+
+
+          {/* Shipping icon column */}
+          <div className="container">
+            <div className="col d-flex pt-1">
+
+              <div className="col-lg">
+                <img
+                  style={{
+                  float: "left",
+                  width: "15%",
+                  paddingRight: 10,
+                  marginLeft: "15%"
+                  }}
+                  src="https://demo-system-next.s3.amazonaws.com/assets/luma/icons/worldwide-shipping-icon.png"
+                  alt="worldwide shipping"
+                />
+                <h6 style={{ marginLeft: 20 }}>WORLDWIDE SHIPPING</h6>
+                <p>free exchanges &amp; returns</p>
+              </div>
+
+          {/* Tracking icon column */}
+              <div className="col-lg">
+                <img
+                  style={{
+                  float: "left",
+                  width: "15%",
+                  paddingRight: 10,
+                  marginLeft: "20%"
+                  }}
+                  src="https://demo-system-next.s3.amazonaws.com/assets/luma/icons/order-tracking-icon.png"
+                  alt="order tracking"
+                />
+                <h6>ORDER TRACKING</h6>
+                <p>One-click ship &amp; track</p>
+              </div>
+
+          {/* Support chat icon column */}  
+              <div className="col-lg">
+                <img
+                  style={{
+                  float: "left",
+                  width: "15%",
+                  paddingRight: 10,
+                  marginLeft: "25%"
+                  }}
+                  src="https://demo-system-next.s3.amazonaws.com/assets/luma/icons/call-center-icon.png"
+                  alt="customer support"
+                />
+                <h6>24/7 CUSTOMER SUPPORT</h6>
+                <p>call, chat, or email anytime</p>
+              </div>
+          </div>
+        </div>
+        <br /><br /><br />
+
 
           <div className="container">
             <div className="heading">
