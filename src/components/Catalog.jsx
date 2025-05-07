@@ -19,7 +19,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://www.phoenix.edu/info/healthcare/_jcr_content/root/container/container_copy/container/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083583709/healthcare-hero.jpeg"
+                    src="https://www.phoenix.edu/info/criminal-justice/_jcr_content/root/container/container_copy_copy_/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083588745/criminal-justice-hero.jpeg"
                     alt="Women's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -46,7 +46,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://www.phoenix.edu/info/earn-more/_jcr_content/root/container/container/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083630333/earn-more-hero.jpeg"
+                    src="https://www.phoenix.edu/info/cybersecurity/_jcr_content/root/container/container_copy_copy_/container_987700006/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083587945/cybersecurity-hero.jpeg"
                     alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -72,7 +72,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://www.phoenix.edu/info/business/_jcr_content/root/container/container_copy_copy/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083625521/business-hero.jpeg" alt="Gear Catalog" style={{ width: "100%" }}
+                    src="https://www.phoenix.edu/info/education/_jcr_content/root/container/container_copy_copy_/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083592334/education-hero.jpeg" alt="Gear Catalog" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
