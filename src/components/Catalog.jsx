@@ -19,7 +19,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://www.phoenix.edu/info/criminal-justice/_jcr_content/root/container/container_copy_copy_/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083588745/criminal-justice-hero.jpeg"
+                    src="https://demo-system-next.s3.amazonaws.com/cja/r/w/s/tying-shoe-gym.jpg"
                     alt="Women's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -46,7 +46,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://www.phoenix.edu/info/cybersecurity/_jcr_content/root/container/container_copy_copy_/container_987700006/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083587945/cybersecurity-hero.jpeg"
+                    src="https://demo-system-next.s3.amazonaws.com/cja/r/m/t/resting-on-step.jpg"
                     alt="Men's Catalog" 
                     style={{ width: "100%" }}
                   />
@@ -72,7 +72,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://www.phoenix.edu/info/education/_jcr_content/root/container/container_copy_copy_/columns/responsivegrid0/container/image.coreimg.85.1600.jpeg/1669083592334/education-hero.jpeg" alt="Gear Catalog" style={{ width: "100%" }}
+                    src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/bottle-mtn-flowers.jpg" alt="Gear Catalog" style={{ width: "100%" }}
                   />
                   <div className="img-text-container">
                     <div className="text-center bg-text inner">
