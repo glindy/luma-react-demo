@@ -19,7 +19,7 @@ class Catalog extends Component {
               <div className="card-image">
                 <figure className="image is-16by9">
                   <img
-                    src="https://demo-system-next.s3.amazonaws.com/cja/r/w/s/tying-shoe-gym.jpg"
+                    src="https://teehuggers.com/img/dd_aca_family.png"
                     alt="Women's Catalog" 
                     style={{ width: "100%" }}
                   />
