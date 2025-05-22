@@ -94,7 +94,7 @@ class MensProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/m/runner-abstract-city.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/m/winter-mtn-trek.jpg")',
       backgroundSize: "cover",
       height: 319
     }}
@@ -103,7 +103,7 @@ class MensProducts extends Component {
       <div className="hero-banner-text" align="left">
         <div className="titles grouped">
           <h4 className="subtitle-left">
-            THE MEN'S PRO 2025 COLLECTION IS HERE!
+            THE MEN'S PRO 2025 COLLECTION IS HERE
           </h4>
           <h1 className="title-left">REACH NEW HEIGHTS WITH</h1>
           <h1 className="title-left">LUMAPRO&#8482; ULTIMATE APPAREL</h1>
