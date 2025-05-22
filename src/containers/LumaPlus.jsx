@@ -37,8 +37,8 @@ render() {
             <div className="d-flex flex-row-bd h-100" style={{}}>
               <div className="hero-banner-text">
                 <div className="titles grouped">
-                  <h4 className="subtitle-left">GET REWARDED</h4>
-                  <h1 className="title-left-white">JOIN THE LUMA+ MOVEMENT</h1>
+                  <h4 className="subtitle-left" style={{textTransform: "uppercase",}}>luma+ loyalty program</h4>
+                  <h1 className="title-left" style={{textTransform: "uppercase",}}>it's good to be together</h1>
                 </div>
               </div>
             </div>

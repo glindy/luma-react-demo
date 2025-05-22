@@ -64,7 +64,7 @@ class CatalogYoga extends Component {
           <div className="column is-one-third">
             <div className="card">
               <div className="card-image">
-                <a href="#/mensproducts">
+                <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
                       src="https://demo-system-next.s3.amazonaws.com/cja/r/y/m/warrior-pose-mtn.jpg"
