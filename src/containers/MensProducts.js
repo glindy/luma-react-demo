@@ -94,7 +94,7 @@ class MensProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/m/backpacker-on-mtn.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/m/runner-abstract-city.jpg")',
       backgroundSize: "cover",
       height: 319
     }}
