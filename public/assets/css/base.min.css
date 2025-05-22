@@ -4756,6 +4756,7 @@ h4.subtitle-right-white {
 
 h4.subtitle-left {
     text-align: left;
+    color:#fff
 }    
 
 h4.subtitle-left-white {
@@ -4778,6 +4779,7 @@ h1.title-left {
     font-weight: 600 !important;
     line-height: 1.25 !important;
     width: 100%;
+    text-align: left;
 }
 
 h1.title-right-white {
