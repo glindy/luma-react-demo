@@ -103,7 +103,7 @@ class MensProducts extends Component {
       <div className="hero-banner-text" align="left">
         <div className="titles grouped">
           <h4 className="subtitle-left">
-            THE MEN'S PRO 2025 COLLECTION IS HERE
+            THE MEN'S PRO 2025 COLLECTION IS HERE!
           </h4>
           <h1 className="title-left">REACH NEW HEIGHTS WITH</h1>
           <h1 className="title-left">LUMAPRO&#8482; ULTIMATE APPAREL</h1>
