@@ -104,9 +104,9 @@ class YogaProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h4 className="subtitle-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>zen meets performance</h4>
-          <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>where sleek design</h1>
-          <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>meets serious stretch</h1>
+          <h4 className="subtitle-left" style={{textTransform: "uppercase", color: "black"}}>zen meets performance</h4>
+          <h1 className="title-left-dark" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>where sleek design</h1>
+          <h1 className="title-left-dark" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>meets serious stretch</h1>
         </div>
       </div>
     </div>

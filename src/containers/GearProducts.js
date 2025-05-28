@@ -105,8 +105,8 @@ class GearProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h1 className="title-right-white" style={{ textTransform: "uppercase", textShadow: "1px 1px #000000", }}>shades as cool as you are</h1>
-          <h1 className="title-right-white" style={{ textTransform: "uppercase", textShadow: "1px 1px #000000", }}>lumalens™ sunglasses</h1>
+          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>shades as cool as you are</h1>
+          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>lumalens™ sunglasses</h1>
         </div>
       </div>
     </div>

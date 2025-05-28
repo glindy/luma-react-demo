@@ -96,7 +96,7 @@ class WomensProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/w/summit-yoga-pose.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/w/runner-concrete-wall.jpg")',
       backgroundSize: "cover",
       height: 319
     }}
@@ -104,9 +104,9 @@ class WomensProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h4 className="subtitle-right" style={{textTransform: "uppercase", color: "white",}}>Announcing LUMAFLEX™</h4>
-          <h1 className="title-right" style={{textTransform: "uppercase", color: "white",}}>maintain your inner balance with</h1>
-          <h1 className="title-right" style={{textTransform: "uppercase", color: "white",}}>apparel as flexible as you are</h1>
+          <h4 className="subtitle-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>Introducing LUMAFLEX™</h4>
+          <h1 className="title-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>run fast, move freely</h1>
+          <h1 className="title-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>apparel that won't hold you back</h1>
         </div>
       </div>
     </div>
