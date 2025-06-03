@@ -72,7 +72,7 @@ class ProductList extends Component {
 
           <div className="container">
             <Slider {...settings}>
-              <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/sunset-mtn-trek.jpg" width={1100}height={509}/></div>
+              <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/mtn-trail-run.jpg" width={1100}height={509}/></div>
               <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/mtn-trail-run.jpg" width={1100}height={509}/></div>
               <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/post-workout-wall.jpg" width={1100}height={509}/></div>
               <div><img src="https://demo-system-next.s3.amazonaws.com/cja/r/h/sunset-mtn-trek.jpg" width={1100}height={509}/></div>
@@ -83,7 +83,7 @@ class ProductList extends Component {
 
           <div className="container">
           <div className="heading">
-              <h1 className="title" style={{textTransform: "uppercase",}}>let your apparel lead the way</h1>
+              <h1 className="title" style={{textTransform: "uppercase",}}>see what strength looks like, one step at a time</h1>
             <div>
             <Catalog />
             </div>
