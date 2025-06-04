@@ -104,9 +104,9 @@ class YogaProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h4 className="subtitle-left" style={{textTransform: "uppercase", color: "black"}}>elevate your practice</h4>
-          <h1 className="title-left-dark" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>take your flow higher</h1>
-          <h1 className="title-left-dark" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>with luma yoga</h1>
+          <h4 className="subtitle-left" style={{textTransform: "uppercase", color: "white"}}>elevate your practice</h4>
+          <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>take your flow higher</h1>
+          <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>with luma yoga</h1>
         </div>
       </div>
     </div>
