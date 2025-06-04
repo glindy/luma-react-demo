@@ -95,7 +95,7 @@ class GearProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/g/mtn-biker-rocky.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/g/drinking-forest.jpg")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",
@@ -105,8 +105,8 @@ class GearProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>ride freely, live boldly</h1>
-          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>with Luma ultimate gear</h1>
+          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>never go thirsty</h1>
+          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>with luma&rsquo;s hydration collection</h1>
         </div>
       </div>
     </div>
