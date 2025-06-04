@@ -27,7 +27,7 @@ render() {
           <div className="container">
             <div className="p-5 text-center bg-image rounded-3" style={{
               backgroundImage:
-                'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/mtn-arms-raised.jpg")',
+                'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/summit-silhouette.jpg")',
               backgroundPosition: "center",
               backgroundSize: "100%",
               backgroundRepeat: "no-repeat",
@@ -37,8 +37,8 @@ render() {
             <div className="d-flex flex-row-bd h-100" style={{}}>
               <div className="hero-banner-text">
                 <div className="titles grouped">
-                  <h4 className="subtitle-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>get luma+ rewards</h4>
-                  <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>it's good to be together</h1>
+                  <h4 className="subtitle-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>get rewarded</h4>
+                  <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000000",}}>join the luma+ movement</h1>
                 </div>
               </div>
             </div>
