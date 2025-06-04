@@ -104,7 +104,7 @@ class WomensProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h4 className="subtitle-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>Introducing LUMAFLEX™</h4>
+          <h4 className="subtitle-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>new collection now available</h4>
           <h1 className="title-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>run fast, move freely</h1>
           <h1 className="title-right" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>apparel that won't hold you back</h1>
         </div>
@@ -117,7 +117,7 @@ class WomensProducts extends Component {
 
     <div className="container">
       <div className="heading">
-          <h1 className="title">SHOP BY CATEGORY</h1>
+          <h1 className="title" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>freedom, tailored. inventory, limited.</h1>
       <div>
         <CatalogWomens />
         </div>
