@@ -128,7 +128,7 @@ class GearProducts extends Component {
 
           <div className="container">
             <div className="heading">
-              <h1 className="title">freedom to ride. power to impact.</h1>
+              <h1 className="title" style={{ textTransform: "uppercase",}}>freedom to ride. power to impact.</h1>
 
              <div className="columns is-multiline">
   {Array.isArray(this.props.products) && this.props.products.length > 0

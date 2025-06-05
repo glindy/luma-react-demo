@@ -94,7 +94,7 @@ class YogaProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/y/mtn-sunrise-yoga.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/y/mtn-sunset-yoga.jpg")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",
@@ -104,8 +104,8 @@ class YogaProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h4 className="subtitle-left" style={{textTransform: "uppercase", color: "white"}}>new year, new collection</h4>
-          <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000",}}>find your inner balance</h1>
+          <h4 className="subtitle-left" style={{textTransform: "uppercase", color: "white"}}>elevate your practice</h4>
+          <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000",}}>take your flow higher</h1>
           <h1 className="title-left-white" style={{textTransform: "uppercase", textShadow: "1px 1px #000",}}>with luma yoga</h1>
         </div>
       </div>
@@ -128,7 +128,7 @@ class YogaProducts extends Component {
 
           <div className="container">
             <div className="heading">
-              <h1 className="title" style={{textTransform: "uppercase",}}>next-level flow. limited-time drop.</h1>
+              <h1 className="title" style={{textTransform: "uppercase",}}>flow together. rise together.</h1>
 
              <div className="columns is-multiline">
   {Array.isArray(this.props.products) && this.props.products.length > 0
