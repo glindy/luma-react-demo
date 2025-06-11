@@ -95,7 +95,7 @@ class GearProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/g/mtn-biker-rocky.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/g/biker-in-sunglasses.jpg")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",
@@ -105,8 +105,8 @@ class GearProducts extends Component {
     <div className="d-flex flex-row-bd h-100" style={{}}>
       <div className="hero-banner-text">
         <div className="titles grouped">
-          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>ride freely, live boldly </h1>
-          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>with Luma gear</h1>
+          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>shades as cool as you are</h1>
+          <h1 className="title-right" style={{ textTransform: "uppercase", textShadow: "1px 1px #FFF", }}>LumaLens shades</h1>
         </div>
       </div>
     </div>
@@ -128,7 +128,7 @@ class GearProducts extends Component {
 
           <div className="container">
             <div className="heading">
-              <h1 className="title" style={{ textTransform: "uppercase",}}>freedom to ride. power to impact.</h1>
+              <h1 className="title" style={{ textTransform: "uppercase",}}>cool is a journey. start yours here.</h1>
 
              <div className="columns is-multiline">
   {Array.isArray(this.props.products) && this.props.products.length > 0

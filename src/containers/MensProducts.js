@@ -105,7 +105,7 @@ class MensProducts extends Component {
           <h4 className="subtitle-left" style={{textTransform: "uppercase",}}>
             ultimate new clothing line launched
           </h4>
-          <h1 className="title-left" style={{textTransform: "uppercase",}}>apparel that actually keeps up with you</h1>
+          <h1 className="title-left" style={{textTransform: "uppercase",}}>apparel that keeps up with you</h1>
           <h1 className="title-left" style={{textTransform: "uppercase",}}>LUMAPRO&#8482;</h1>
         </div>
       </div>
@@ -117,7 +117,7 @@ class MensProducts extends Component {
 
     <div className="container">
       <div className="heading">
-          <h1 className="title">SHOP BY CATEGORY</h1>
+          <h1 className="title">unlike your old gear, we won&rsquo;t tap out at mile two</h1>
       <div>
         <CatalogMens />
         </div>
