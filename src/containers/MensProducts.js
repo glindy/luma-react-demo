@@ -117,7 +117,7 @@ class MensProducts extends Component {
 
     <div className="container">
       <div className="heading">
-          <h1 className="title">unlike your old gear, we won&rsquo;t tap out at mile two</h1>
+          <h1 className="title" style={{textTransform: "uppercase",}}>unlike your old gear, we won&rsquo;t tap out at mile two.</h1>
       <div>
         <CatalogMens />
         </div>
