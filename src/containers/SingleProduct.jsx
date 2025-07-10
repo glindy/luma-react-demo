@@ -6,7 +6,7 @@ import { addToCart } from '../actions/addToCart'
 import { addToWishlist } from '../actions/addToWishlist'
 import { removeFromWishlist } from '../actions/removeFromWishlist'
 import { removeFromCart } from '../actions/removeFromCart'
-import targetHelpers from '../utils/targetHelpers' // me 2/28
+// import targetHelpers from '../utils/targetHelpers' // me 2/28
 
 /**
  * Create SingleProduct Container
@@ -15,8 +15,8 @@ class SingleProduct extends Component {
   componentDidMount() {
     const { dispatch } = this.props;
     dispatch(fetchProduct(this.props.match.params.id));
-       targetHelpers.setItemCategory();
-       targetHelpers.targetGetOffers();
+       //targetHelpers.setItemCategory();
+       //targetHelpers.targetGetOffers();
   }
     
   checkWishlist(id) {
