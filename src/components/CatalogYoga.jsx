@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/w/yoga-class-studio.jpg"
+                      src="https://teehuggers.com/aca/aca_fsi_4.jpeg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/e/yoga-mat-w-flower.jpg"
+                      src="https://teehuggers.com/aca/aca_fsi_5.jpeg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/m/warrior-pose-mtn.jpg"
+                      src="https://teehuggers.com/aca/aca_fsi_6.jpeg"
                       alt="Yoga Shoes"
                       style={{ width: "100%" }}
                     />
