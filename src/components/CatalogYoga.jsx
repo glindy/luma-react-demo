@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/aca/aca_fsi_4.jpeg"
+                      src="https://teehuggers.com/aca/aca_fsi_oca.jpeg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
