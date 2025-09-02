@@ -94,7 +94,7 @@ class YogaProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://teehuggers.com/aca/aca_fsi_oca.jpeg")',
+        'url("https://teehuggers.com/aca/aca_custom_vzn_2_v2.png")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",
