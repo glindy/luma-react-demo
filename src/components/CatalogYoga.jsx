@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/aca/aca_custom_vzn_1_v2.png"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/w/upward-dog.jpg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/aca/aca_custom_vzn_4_v2.png"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/e/yoga-mat-w-flower.jpg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,13 +67,13 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/aca/aca_custom_vzn_3_v2.png"
-                      alt="Yoga Shoes"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/m/warrior-pose-studio.jpg"
+                      alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />
                     <div className="img-text-container">
                       <div className="text-center bg-text inner bottom-center">
-                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP SHOES</h5>
+                        <h5 className="white" style={{ textShadow: "1px 1px #000000" }}>SHOP BOTTOMS</h5>
                       </div>
                       <div style={{ height: "3em"}}></div>
                     </div>
