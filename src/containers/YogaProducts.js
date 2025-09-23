@@ -94,7 +94,7 @@ class YogaProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://www.att.com/scmsassets/upper_funnel/wireless/2669103-story-stack-empowering-retina.jpg")',
+        'url("https://demo-system-next.s3.amazonaws.com/cja/r/y/forward-fold.jpg")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",
