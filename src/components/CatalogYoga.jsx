@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/w/upward-dog.jpg"
+                      src="https://www.att.com/scmsassets/upper_funnel/wireless/4510801-flex-card-newline-tbl-retina.jpg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/e/yoga-mat-w-flower.jpg"
+                      src="https://www.att.com/scmsassets/upper_funnel/internet/5209013-filmstrip-1gig-tbl-retina.jpg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/m/warrior-pose-studio.jpg"
+                      src="https://www.att.com/scmsassets/upper_funnel/wireless/5161250-hero-attg_hp-tbl-retina.jpg"
                       alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />

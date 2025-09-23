@@ -27,7 +27,7 @@ render() {
           <div className="container">
             <div className="p-5 text-center bg-image rounded-3" style={{
               backgroundImage:
-                'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/mtn-arms-raised.jpg")',
+                'url("https://www.att.com/scmsassets/upper_funnel/internet/4547202-multi-tile-mday25-bb-retina.png")',
               backgroundPosition: "center",
               backgroundSize: "100%",
               backgroundRepeat: "no-repeat",
