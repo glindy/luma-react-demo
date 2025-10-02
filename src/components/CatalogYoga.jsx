@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.apple.com/v/airpods-pro/q/images/overview/hearing-health/hearing_health_conversation_boost__cn2jd958nnde_large_2x.jpg"
+                      src="https://teehuggers.com/aca/aca_tech_1.jpeg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.apple.com/assets-www/en_WW/ipad/feature_card/xsmall/fc_learning_26db92e22.jpg"
+                      src="https://teehuggers.com/aca/aca_tech_2.jpeg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.apple.com/v/iphone/home/ce/images/overview/consider/ios__02vczxaa3siu_large.jpg"
+                      src="https://teehuggers.com/aca/aca_tech_3.jpeg"
                       alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />

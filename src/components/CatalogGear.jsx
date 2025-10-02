@@ -21,7 +21,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.apple.com/assets-www/en_WW/mac/feature_card/large/fc_durability_26ac75dbe.jpg"
+                      src="https://teehuggers.com/aca/aca_tech_4.jpeg"
                       alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
