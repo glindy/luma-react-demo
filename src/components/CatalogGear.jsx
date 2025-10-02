@@ -21,7 +21,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/w/watch-in-river.jpg"
+                      src="https://www.apple.com/assets-www/en_WW/mac/feature_card/large/fc_durability_26ac75dbe.jpg"
                       alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/bottle-gym.jpg"
+                      src="https://www.apple.com/v/imac/u/images/overview/product-stories/apple-intelligence/lifestyle_1__ccnm7cq3bhjm_medium_2x.jpg"
                       alt="Gear Hydration"
                       style={{ width: "100%" }}
                     />
