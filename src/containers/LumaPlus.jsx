@@ -27,7 +27,7 @@ render() {
           <div className="container">
             <div className="p-5 text-center bg-image rounded-3" style={{
               backgroundImage:
-                'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/mtn-arms-raised.jpg")',
+                'url("https://www.apple.com/v/airpods-pro/q/images/overview/highlights/highlights_noise_cancellation__cxd50c0etw4m_large_2x.jpg")',
               backgroundPosition: "center",
               backgroundSize: "100%",
               backgroundRepeat: "no-repeat",
