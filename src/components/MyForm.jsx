@@ -49,7 +49,7 @@ export default function MyForm() {
                     type="text"
                     className="form-control"
                     id="inputFirstName"
-                    placeholder="Tess"
+                    placeholder="Lucas"
                   />
                 </div>
                 <div className="form-group col-md-6">

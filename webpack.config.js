@@ -30,5 +30,13 @@ module.exports = {
         loader: 'url-loader?limit=1024&name=images/[name].[ext]'
       }
     ]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "public"),
+    watchContentBase: true, // <-- Add this line
+    compress: true,
+    port: 3000,
+    hot: true,
+    open: true
   }
 };
