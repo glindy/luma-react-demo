@@ -38,7 +38,7 @@ const MyForm = () => {
             id="firstName"
             value={formData.firstName}
             onChange={handleChange}
-            placeholder="Jane"
+            placeholder="John"
           />
         </div>
         <div className="form-group col-md-6">
