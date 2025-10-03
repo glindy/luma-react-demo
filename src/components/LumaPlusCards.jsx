@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import MyForm from '../components/MyForm';
+
 
 /**
  * Create Luma+ Benefits Card Component
@@ -66,7 +66,9 @@ class LumaPlusCards extends Component {
                </div>
                <div style="/* gap: 1rem 2rem; *//* padding-right: 20px; */" class="Container">
                   <div class="content" style="float:right;">
-    <MyForm />
+    {/*  removing original placement of <MyForm />
+    */}
+
    </div>
                  
                </div>

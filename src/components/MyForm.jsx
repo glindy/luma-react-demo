@@ -1,107 +1,111 @@
-import React, { Component } from 'react';
-import React, { useState } from "react";
-import { Link } from 'react-router-dom';
+import React from "react";
 
-const MyForm = () => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    mobile: "",
-    consent: false,
-  });
-
-  // Handle input changes
-  const handleChange = (e) => {
-    const { id, value, type, checked } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [id]: type === "checkbox" ? checked : value,
-    }));
-  };
-
-  // Handle form submit
+export default function MyForm() {
   const handleSubmit = (e) => {
-    e.preventDefault(); // stop page reload
-    console.log("Captured form data:", formData);
-    alert(`Thanks ${formData.firstName}, we captured your info!`);
+    e.preventDefault();
+
+    const formData = {
+      firstName: document.getElementById("inputFirstName").value,
+      lastName: document.getElementById("inputLastName").value,
+      email: document.getElementById("inputEmail").value,
+      mobile: document.getElementById("inputMobile").value,
+      consent: document.getElementById("gridCheck").checked,
+    };
+
+    console.log("Form Data:", formData);
+
+    // Send formData to analytics platform here
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="row">
-        <div className="form-group col-md-6" style={{ float: "right" }}>
-          <label htmlFor="firstName">FIRST NAME</label>
-          <input
-            type="text"
-            className="form-control"
-            id="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-            placeholder="Tess"
-          />
-        </div>
-        <div className="form-group col-md-6">
-          <label htmlFor="lastName">LAST NAME</label>
-          <input
-            type="text"
-            className="form-control"
-            id="lastName"
-            value={formData.lastName}
-            onChange={handleChange}
-            placeholder="Smith"
-          />
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="form-group col-md-6">
-          <label htmlFor="email">EMAIL</label>
-          <input
-            type="email"
-            className="form-control"
-            id="email"
-            value={formData.email}
-            onChange={handleChange}
-            placeholder="jane@email.com"
-          />
-        </div>
-        <div className="form-group col-md-6">
-          <label htmlFor="mobile">MOBILE</label>
-          <input
-            type="text"
-            className="form-control"
-            id="mobile"
-            value={formData.mobile}
-            onChange={handleChange}
-            placeholder="444-444-4444"
-          />
-        </div>
-      </div>
-
-      <div className="form-group">
-        <div className="form-check">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            id="consent"
-            checked={formData.consent}
-            onChange={handleChange}
-          />
-          <label className="form-check-label" htmlFor="consent">
-            By clicking 'Submit,' you agree to our terms and conditions and
-            consent to receive marketing emails and SMS text messages from us.
-          </label>
+    <section style={{ paddingLeft: 15, paddingRight: 15, width: "100%" }}>
+      <div
+        style={{
+          color: "rgb(51, 51, 51)",
+          marginTop: 20,
+          paddingLeft: 15,
+          paddingRight: 15,
+          backgroundSize: "cover",
+          backgroundImage:
+            'url("https://demo-system-next.s3.amazonaws.com/cja/r/l/workout-gear-bg.jpg")',
+          backgroundPosition: "center bottom",
+          height: "90%",
+        }}
+        className="container"
+      >
+        <div className="title-center-dark" style={{ color: "rgb(0, 0, 0)" }}>
+          <div className="Title__content">
+            <h1 className="title-center-dark">BECOME A LUMA+ MEMBER</h1>
+          </div>
           <br />
-          <br />
-          <button type="submit" className="btn btn-primary-input">
-            SUBMIT
-          </button>
+        </div>
+        <div className="Container">
+          <div className="content" style={{ float: "right" }}>
+            <form onSubmit={handleSubmit}>
+              <div className="row">
+                <div className="form-group col-md-6" style={{ float: "right" }}>
+                  <label htmlFor="inputFirstName">FIRST NAME</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputFirstName"
+                    placeholder="Jane"
+                  />
+                </div>
+                <div className="form-group col-md-6">
+                  <label htmlFor="inputLastName">LAST NAME</label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputLastName"
+                    placeholder="Smith"
+                  />
+                </div>
+              </div>
+              <div className="row">
+                <div className="form-group col-md-6">
+                  <label htmlFor="inputEmail">EMAIL</label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="inputEmail"
+                    placeholder="jane@email.com"
+                  />
+                </div>
+                <div className="form-group col-md-6">
+                  <label htmlFor="inputMobile">MOBILE</label>
+                  <input
+                    type="tel"
+                    className="form-control"
+                    id="inputMobile"
+                    placeholder="444-444-4444"
+                  />
+                </div>
+              </div>
+              <div className="form-group">
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label className="form-check-label" htmlFor="gridCheck">
+                    By clicking 'Submit,' you agree to our terms and conditions
+                    and consent to receive marketing emails and SMS text
+                    messages from us.
+                  </label>
+                  <br />
+                  <br />
+                  <button type="submit" className="btn btn-primary-input">
+                    SUBMIT
+                  </button>
+                </div>
+              </div>
+              <br />
+            </form>
+          </div>
         </div>
       </div>
-      <br />
-    </form>
+    </section>
   );
-};
-
-export default MyForm;
+}
