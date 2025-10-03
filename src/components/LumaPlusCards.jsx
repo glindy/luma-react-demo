@@ -65,40 +65,8 @@ class LumaPlusCards extends Component {
                </div>
                <div style="/* gap: 1rem 2rem; *//* padding-right: 20px; */" class="Container">
                   <div class="content" style="float:right;">
-    <form>
-                        <div class="row">
-                           <div class="form-group col-md-6" style="float:right;">
-                              <label for="inputFirstName">FIRST NAME</label>
-                              <input type="email" class="form-control" id="inputFirstName" placeholder="Jane">
-                           </div>
-                           <div class="form-group col-md-6">
-                              <label for="inputLastName">LAST NAME</label>
-                              <input type="password" class="form-control" id="inputLastName" placeholder="Smith">
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="form-group col-md-6">
-                              <label for="inputEmail">EMAIL</label>
-                              <input type="email" class="form-control" id="inputEmail" placeholder="jane@email.com">
-                           </div>
-                           <div class="form-group col-md-6">
-                              <label for="inputMobile">MOBILE</label>
-                              <input type="password" class="form-control" id="inputMobile" placeholder="444-444-4444">
-                           </div>
-                        </div>
-                        <div class="form-group">
-                           <div class="form-check">
-                              <input class="form-check-input" type="checkbox" id="gridCheck">
-                              <label class="form-check-label" for="gridCheck">
-                              By clicking 'Submit,' you agree to our terms and conditions and consent to receive marketing emails and SMS text messages from us.
-                              </label>
-                              <br>
-                              <br>
-                              <button type="submit" class="btn btn-primary-input">SUBMIT</button>
-                           </div>
-                        </div>
-                        <br>
-</form></div>
+    <MyForm />
+   </div>
                  
                </div>
             </div>
