@@ -117,7 +117,7 @@ class WomensProducts extends Component {
 
     <div className="container">
       <div className="heading">
-          <h1 className="title" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>freedom, tailored. inventory, limited.</h1>
+          <h1 className="title" style={{textTransform: "uppercase", textShadow: "1px 1px #FFF",}}>shop by category</h1>
       <div>
         <CatalogWomens />
         </div>

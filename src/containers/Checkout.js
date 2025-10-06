@@ -122,11 +122,11 @@ class Checkout extends Component {
                 <div className="col-md-4 mb-2">
                   <label >FIRST NAME </label>
                   <input type="text" className="form-control" id="firstname" placeholder="First name"
-                         defaultValue="Mark" required/>
+                         defaultValue="Stephanie" required/>
                 </div>
                 <div className="col-md-4 mb-2">
                   <label >LAST NAME </label>
-                  <input type="text" className="form-control" id="lastname" placeholder="Last name" defaultValue="Otto"
+                  <input type="text" className="form-control" id="lastname" placeholder="Last name" defaultValue="Burton"
                          required/>
                 </div>
               </div>

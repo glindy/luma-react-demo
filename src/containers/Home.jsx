@@ -57,7 +57,6 @@ class ProductList extends Component {
 
 
 
-
     return (
 
       <div key="HomePage">
@@ -83,7 +82,7 @@ class ProductList extends Component {
 
           <div className="container">
           <div className="heading">
-              <h1 className="title" style={{textTransform: "uppercase",}}>test your strength. your story. your gear.</h1>
+              <h1 className="title" style={{textTransform: "uppercase",}}>your strength. your story. your gear.</h1>
             <div>
             <Catalog />
             </div>

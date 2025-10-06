@@ -14,7 +14,17 @@ export default function MyForm() {
 
     console.log("Form Data:", formData);
 
-    // Send formData to analytics platform here
+    // Store in a global variable for your tag manager
+  window.myFormData = formData;
+
+  console.log("Stored form data:", window.myFormData);
+
+  // Trigger form submit event
+  const event = new CustomEvent("formSubmitted", { detail: formData });
+  window.dispatchEvent(event);
+
+    // Navigate to signup confirmation page
+    window.location.href = "#/signupconfirm";
   };
 
   return (
@@ -41,7 +51,7 @@ export default function MyForm() {
         </div>
         <div className="Container">
           <div className="content" style={{ float: "right" }}>
-            <form onSubmit={handleSubmit}>
+            <form>
               <div className="row">
                 <div className="form-group col-md-6" style={{ float: "right" }}>
                   <label htmlFor="inputFirstName">FIRST NAME</label>
@@ -49,7 +59,6 @@ export default function MyForm() {
                     type="text"
                     className="form-control"
                     id="inputFirstName"
-                    placeholder="Lucas"
                   />
                 </div>
                 <div className="form-group col-md-6">
@@ -58,10 +67,10 @@ export default function MyForm() {
                     type="text"
                     className="form-control"
                     id="inputLastName"
-                    placeholder="Smith"
                   />
                 </div>
               </div>
+
               <div className="row">
                 <div className="form-group col-md-6">
                   <label htmlFor="inputEmail">EMAIL</label>
@@ -69,7 +78,6 @@ export default function MyForm() {
                     type="email"
                     className="form-control"
                     id="inputEmail"
-                    placeholder="jane@email.com"
                   />
                 </div>
                 <div className="form-group col-md-6">
@@ -78,10 +86,11 @@ export default function MyForm() {
                     type="tel"
                     className="form-control"
                     id="inputMobile"
-                    placeholder="444-444-4444"
+                    placeholder="( ___ ) ___ - ____"
                   />
                 </div>
               </div>
+
               <div className="form-group">
                 <div className="form-check">
                   <input
@@ -96,9 +105,13 @@ export default function MyForm() {
                   </label>
                   <br />
                   <br />
-                  <button type="submit" className="btn btn-primary-input">
+                  <a
+                    href="#/signupconfirm"
+                    className="btn btn-primary-input"
+                    onClick={handleSubmit}
+                  >
                     SUBMIT
-                  </button>
+                  </a>
                 </div>
               </div>
               <br />

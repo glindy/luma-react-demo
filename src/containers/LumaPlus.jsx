@@ -66,10 +66,10 @@ render() {
         </p>
         <br />
         <ul style={{ fontSize: "1.25em" }}>
-          <li>Sign Up</li>
-          <li>Earn Points</li>
-          <li>Get Exclusive Offers</li>
-          <li>Climb Higher</li>
+          <li>Sign up for free</li>
+          <li>Earn points for every purchase</li>
+          <li>Climb higher with exclusive member offers</li>
+          <li>Get early access to limited edition collections</li>
         </ul>
       </div>
     </div>
@@ -119,7 +119,7 @@ render() {
   <div className="row">
 
         <MyForm />
-        
+
   </div>
 </div>
 
