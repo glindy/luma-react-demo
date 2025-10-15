@@ -5,10 +5,9 @@ export default function MyForm() {
     e.preventDefault();
 
     const formData = {
-      firstName: document.getElementById("inputFirstName").value,
-      lastName: document.getElementById("inputLastName").value,
+      name: document.getElementById("inputName").value,
       email: document.getElementById("inputEmail").value,
-      mobile: document.getElementById("inputMobile").value,
+      comments: document.getElementById("inputComments").value,
       consent: document.getElementById("gridCheck").checked,
     };
 
@@ -54,38 +53,30 @@ export default function MyForm() {
             <form>
               <div className="row">
                 <div className="form-group col-md-6" style={{ float: "right" }}>
-                  <label htmlFor="inputFirstName" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>FIRST NAME</label>
+                  <label htmlFor="inputFirstName" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>NAME</label>
                   <input
                     type="text"
                     className="form-control"
-                    id="inputFirstName"
+                    id="inputName"
                   />
                 </div>
                 <div className="form-group col-md-6">
-                  <label htmlFor="inputLastName" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>LAST NAME</label>
+                  <label htmlFor="inputLastName" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>EMAIL</label>
                   <input
                     type="text"
                     className="form-control"
-                    id="inputLastName"
+                    id="inputEmail"
                   />
                 </div>
               </div>
 
               <div className="row">
-                <div className="form-group col-md-6">
-                  <label htmlFor="inputEmail" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>EMAIL</label>
+                <div className="form-group col-md-12">
+                  <label htmlFor="inputEmail" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>COMMENTS</label>
                   <input
-                    type="email"
+                    type="text"
                     className="form-control"
-                    id="inputEmail"
-                  />
-                </div>
-                <div className="form-group col-md-6">
-                  <label htmlFor="inputMobile" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>COMMENTS</label>
-                  <input
-                    type="tel"
-                    className="form-control"
-                    id="inputMobile"
+                    id="inputComments"
                   />
                 </div>
               </div>
