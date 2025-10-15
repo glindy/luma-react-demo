@@ -54,7 +54,7 @@ export default function MyForm() {
             <form>
               <div className="row">
                 <div className="form-group col-md-6" style={{ float: "right" }}>
-                  <label htmlFor="inputFirstName">FIRST NAME</label>
+                  <label htmlFor="inputFirstName" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>FIRST NAME</label>
                   <input
                     type="text"
                     className="form-control"
@@ -62,7 +62,7 @@ export default function MyForm() {
                   />
                 </div>
                 <div className="form-group col-md-6">
-                  <label htmlFor="inputLastName">LAST NAME</label>
+                  <label htmlFor="inputLastName" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>LAST NAME</label>
                   <input
                     type="text"
                     className="form-control"
@@ -73,7 +73,7 @@ export default function MyForm() {
 
               <div className="row">
                 <div className="form-group col-md-6">
-                  <label htmlFor="inputEmail">EMAIL</label>
+                  <label htmlFor="inputEmail" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>EMAIL</label>
                   <input
                     type="email"
                     className="form-control"
@@ -81,12 +81,11 @@ export default function MyForm() {
                   />
                 </div>
                 <div className="form-group col-md-6">
-                  <label htmlFor="inputMobile">MOBILE</label>
+                  <label htmlFor="inputMobile" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>COMMENTS</label>
                   <input
                     type="tel"
                     className="form-control"
                     id="inputMobile"
-                    placeholder="( ___ ) ___ - ____"
                   />
                 </div>
               </div>
