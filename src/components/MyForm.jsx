@@ -72,7 +72,7 @@ export default function MyForm() {
 
               <div className="row">
                 <div className="form-group col-md-12">
-                  <label htmlFor="inputEmail" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>COMMENTS</label>
+                  <label htmlFor="inputEmail" style={{ fontWeight: 'bold', textShadow: "1px 1px #FFF", }}>TELL US ABOUT YOURSELF</label>
                   <input
                     type="text"
                     className="form-control"
