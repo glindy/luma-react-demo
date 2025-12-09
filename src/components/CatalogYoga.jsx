@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/444f240c-66d4-4be8-b5e8-a9e9f984268d/nike-just-do-it.jpg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/w/warrior-beach.jpg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
