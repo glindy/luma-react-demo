@@ -21,7 +21,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/w/watch-in-river.jpg"
+                      src="https://teehuggers.com/img/Snowboarding_Powder.png"
                       alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
