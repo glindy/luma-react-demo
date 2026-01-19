@@ -21,7 +21,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/img/Snowboarding_Powder.png"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/w/starting-line.jpg"
                       alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/bottle-gym.jpg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/athlete-drinks-bottle.jpg"
                       alt="Gear Hydration"
                       style={{ width: "100%" }}
                     />
