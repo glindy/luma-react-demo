@@ -42,10 +42,25 @@ const AppWithEvents = withRouter((props) => {
       setTimeout(() => dispatchCustomEvent("page-load-bottom", document.getElementById('app')), 1000);
 
       if (!document.cookie.includes('lumaCookie=')) {
-        const lumaId = Math.floor(Math.random() * 10000000) + 90000000;
-        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();
-        document.cookie = `lumaCookie=${lumaId}; path=/; expires=${expires}`;
-      }
+  const lumaId = Math.floor(Math.random() * 10000000) + 90000000;
+
+  // 50% user-level sampling
+  const isSampledUser = lumaId % 2 === 0;
+
+  if (!isSampledUser) {
+    console.log('[LUMA SAMPLE] User not sampled — no cookie set');
+    return;
+  }
+
+  const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();
+  document.cookie = `lumaCookie=${lumaId}; path=/; expires=${expires}`;
+
+  console.log('[LUMA SAMPLE] User sampled — cookie set:', lumaId);
+}
+
+
+
+
     }
 
     const handleRouteChange = () => {
