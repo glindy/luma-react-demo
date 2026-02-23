@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/img/Hikers_wanting_on_mountain_trail_with_yellow_and_blue_backpack.png"
+                      src="https://teehuggers.com/img/WKND_Always-on_Concepting-KK.png"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/img/hiker_final_lgb.png"
+                      src="https://teehuggers.com/img/Outdoor_backpacking.jpg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://teehuggers.com/img/Hikers_at_top_of_summit_looking_towards_mountain_range_wearing_backpack.png"
+                      src="https://teehuggers.com/img/WKND_Backpacking_Hero_Asset.png"
                       alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />
