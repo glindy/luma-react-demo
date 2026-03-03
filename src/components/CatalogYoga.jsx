@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/w/warrior-beach.jpg"
+                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/kids-family/Rios_family_campsite_laughing.png"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/e/yoga-mat-w-flower.jpg"
+                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/kids-family/Rios_flannel_mom_holding_son.png"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/y/m/warrior-pose-studio.jpg"
+                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/kids-family/Rios_family_flannel_field.png"
                       alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />
