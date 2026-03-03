@@ -21,7 +21,7 @@ class CatalogWomens extends Component {
                 <a href="#/womensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/men/Rios_man_flannel_backpack_forest.jpeg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/w/t/matching-tops.jpg"
                       alt="Women's Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogWomens extends Component {
                 <a href="#/womensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/men/Rios_man_flannel_cabin_doorway.jpeg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/w/b/runner-leafy-bg.jpg"
                       alt="Women's Bottoms"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogWomens extends Component {
                 <a href="#/womensproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/men/Rios_man_flannel_kneeling_campfire.jpeg"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/w/s/tying-shoe-beach.jpg"
                       alt="Women's Shoes"
                       style={{ width: "100%" }}
                     />

@@ -21,7 +21,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/women/Rios_woman_flannel_mountain_picnic.png"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/w/starting-line.jpg"
                       alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/women/Rios_women_pink_flannel_city.png"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/athlete-drinks-bottle.jpg"
                       alt="Gear Hydration"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://wknd-adobedemo.com/content/dam/wknd-rios/women/Rios_woman_solo_backpacker.png"
+                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/s/glasses-on-beach.jpg"
                       alt="Gear Sunglasses"
                       style={{ width: "100%" }}
                     />
