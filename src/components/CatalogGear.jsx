@@ -21,7 +21,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/w/starting-line.jpg"
+                      src="https://wknd-adobedemo.com/content/dam/wknd_membership_campaign_assets/couple_snowshoeing.jpeg"
                       alt="Gear Watches"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/h/athlete-drinks-bottle.jpg"
+                      src="https://wknd-adobedemo.com/content/dam/wknd_membership_campaign_assets/woman_solo_camping_car_tent.jpeg"
                       alt="Gear Hydration"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogGear extends Component {
                 <a href="#/gearproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://demo-system-next.s3.amazonaws.com/cja/r/g/s/glasses-on-beach.jpg"
+                      src="https://wknd-adobedemo.com/content/dam/wknd_membership_campaign_assets/wknd-logo-dk.png"
                       alt="Gear Sunglasses"
                       style={{ width: "100%" }}
                     />
