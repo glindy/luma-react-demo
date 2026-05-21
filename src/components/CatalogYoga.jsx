@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.servicenow.com/content/dam/servicenow-assets/public/scripts/homepage-redesign/marquee/homepage-market-launch-event.sm.png"
+                      src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/86/34/93/e43def2d-1ad1-45f9-b116-c207a2fc039e.jpg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/images/ds-backgrounds/all-products-marquee.sm.png"
+                      src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/86/34/93/e43def2d-1ad1-45f9-b116-c207a2fc039e.jpg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/images/ds-backgrounds/bcm-intro_new.sm.jpg"
+                      src="https://wwwimage-us.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/42/10/53/facebe90-10ed-4644-ade5-61c762966c87.jpg"
                       alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />
