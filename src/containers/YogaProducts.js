@@ -94,7 +94,7 @@ class YogaProducts extends Component {
     className="p-5 text-center bg-image rounded-3"
     style={{
       backgroundImage:
-        'url("https://demo-system-next.s3.amazonaws.com/cja/r/y/forward-fold.jpg")',
+        'url("https://www.sephora.com/contentimages/26_05_07_may-complexion-mbc_site-d_hp_hero-banner_us-can_3273.jpg?imwidth=1090")',
       backgroundPosition: "center",
       backgroundSize: "100%",
       backgroundRepeat: "no-repeat",

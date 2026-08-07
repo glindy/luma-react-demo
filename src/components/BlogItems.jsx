@@ -19,7 +19,7 @@ class BlogItems extends Component {
           <div className="card-image">
             <figure className="image is-2by1">
               <a href="#/blog">
-                <img src="https://demo-system-next.s3.amazonaws.com/cja/r/b/yoga-circle-beach.jpg" />
+                <img src="https://www.sephora.com/contentimages/26-07-11_rhode-newness_site_hp_mktg-banner-1200x800_us-can_2834.jpg?imwidth=800" />
               </a>
             </figure>
             <div className="img-text-container">
@@ -39,7 +39,7 @@ class BlogItems extends Component {
           <div className="card-image">
             <figure className="image is-2by1">
               <a href="#/blog">
-                <img src="https://demo-system-next.s3.amazonaws.com/cja/r/b/strong-back-pose.jpg" />
+                <img src="https://www.sephora.com/contentimages/2026-07-16_cs-luxe-v2_site_hp_mktg-banner_us_01.jpg?imwidth=800" />
               </a>
             </figure>
             <div className="img-text-container">
@@ -59,7 +59,7 @@ class BlogItems extends Component {
           <div className="card-image">
             <figure className="image is-2by1">
               <a href="#/blog">
-                <img src="https://demo-system-next.s3.amazonaws.com/cja/r/b/city-lake-run.jpg" />
+                <img src="https://www.sephora.com/contentimages/26-08-01_sc-bsl-new-mascara_site_hp_mktg-banner-1200x800_can_3712.jpg?imwidth=800" />
               </a>
             </figure>
             <div className="img-text-container">
