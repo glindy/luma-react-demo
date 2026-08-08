@@ -21,7 +21,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.sephora.com/contentimages/2026-07-02_summer-scents-mbc_site_hp_hero-banner_us_2833.jpg?imwidth=1090"
+                      src="https://www.sephora.com/contentimages/2026-07-02_summer-scents-mbc_site_hp_hero-banner_us_2833.jpg"
                       alt="Yoga Tops"
                       style={{ width: "100%" }}
                     />
@@ -44,7 +44,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.sephora.com/contentimages/back-to-school_BTS_site_hp_hero-banner_us_2833_img-only.jpg?imwidth=1090"
+                      src="https://www.sephora.com/contentimages/back-to-school_BTS_site_hp_hero-banner_us_2833_img-only.jpg"
                       alt="Yoga Mats"
                       style={{ width: "100%" }}
                     />
@@ -67,7 +67,7 @@ class CatalogYoga extends Component {
                 <a href="#/yogaproducts">
                   <figure className="image is-16by9">
                     <img
-                      src="https://www.sephora.com/contentimages/26-07-01_kayali-boujee-kitty-caramel-milk_site_hp_hero-banner-1200x800_us-can_2833.jpg?imwidth=1090"
+                      src="https://www.sephora.com/contentimages/26-07-01_kayali-boujee-kitty-caramel-milk_site_hp_hero-banner-1200x800_us-can_2833.jpg"
                       alt="Yoga Bottoms"
                       style={{ width: "100%" }}
                     />
